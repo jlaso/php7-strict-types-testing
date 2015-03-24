@@ -1,5 +1,8 @@
 # php7-strict-types-testing
+
 Testing the new behaviour of strict type hints
+
+In order to test my article published in [dzone](http://www.dzone.com/links/php_7_scalar_type_hinting_finally_approved.html).
 
 Requirements:
 - you need to have installed [vagrant](http://docs.vagrantup.com/v2/installation/) and [virtualbox](https://www.virtualbox.org/wiki/Downloads)
@@ -49,7 +52,7 @@ php -v
 ```
 
 
-if not you have to repeat steps changing first to the branch you want.
+if not apears the expected version, you have to repeat the steps changing firstly to the [branch](https://github.com/php/php-src/branches) you want.
 
 
 See the rest of the samples to check how to use the new strict types hint
