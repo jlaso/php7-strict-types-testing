@@ -8,7 +8,7 @@ Requirements:
 - you need to have installed [vagrant](http://docs.vagrantup.com/v2/installation/) and [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 
-How to install
+How to install PHP7
 
 ```ssh
 git clone https://github.com/jlaso/php7-strict-types-testing.git
@@ -53,6 +53,14 @@ php -v
 
 
 if not apears the expected version, you have to repeat the steps changing firstly to the [branch](https://github.com/php/php-src/branches) you want.
+
+In order to pass the tests you need to install PHPUnit. Following the official [documentation](https://phpunit.de/manual/current/en/installation.html):
+
+```ssh
+wget https://phar.phpunit.de/phpunit.phar
+chmod +x phpunit.phar
+sudo mv phpunit.phar /usr/local/bin/phpunit
+```
 
 
 See the rest of the samples to check how to use the new strict types hint
