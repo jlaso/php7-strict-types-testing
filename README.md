@@ -2,7 +2,7 @@
 Testing the new behaviour of strict type hints
 
 Requirements:
-- you need to have installed vagrant and virtualbox
+- you need to have installed [vagrant](http://docs.vagrantup.com/v2/installation/) and [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 
 How to install
@@ -29,13 +29,13 @@ sudo apt-get install build-essential
 sudo apt-get install openssl libssl-dev openssl-blacklist openssl-blacklist-extra  bison autoconf automake libtool re2c flex 
 ```
 
-in order to install php from sources you need to clone the repo:
+in order to install php from sources you need to clone the repo (be patient):
 ```ssh
 git clone https://github.com/php/php-src.git
 cd php-src/
 ```
 
-and now, following official documentation:
+and now, following the official [documentation](http://us1.php.net/git.php):
 ```ssh
 ./buildconf
 ./configure
