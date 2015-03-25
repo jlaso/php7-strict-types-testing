@@ -63,6 +63,9 @@ sudo mv phpunit.phar /usr/local/bin/phpunit
 ```
 
 
-See the rest of the samples to check how to use the new strict types hint
+See the rest of the samples to check how to use the new strict types checking.
+
+Inside the machine sample code are located at /var/www/source.
+
 
 
