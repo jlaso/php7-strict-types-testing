@@ -22,7 +22,7 @@ function calculateTime($numOps = 1000000)
 }
 
 
-system("cd gps; git checkout feature/php7-strict-type-hint;");
+system("cd gps; git checkout tags/1.1;");
 
 $time = calculateTime($numOps = 10000000);
 echo sprintf("Total time spent in calculate %d distances is %f\n", $numOps, $time);
