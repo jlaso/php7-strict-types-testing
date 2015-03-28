@@ -1,1 +1,4 @@
 .vagrant
+sources/gps/vendor
+sources/gps/composer.lock
+

@@ -7,8 +7,10 @@ In order to test my article published in [dzone](http://www.dzone.com/links/php_
 Requirements:
 - you need to have installed [vagrant](http://docs.vagrantup.com/v2/installation/) and [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
+The vagrant machine provisions PHP7 compiler and libraries needed for that.
 
-How to install PHP7
+In the event that you want to install manually in an ubuntu fresh installation:
+
 
 ```ssh
 git clone https://github.com/jlaso/php7-strict-types-testing.git
@@ -16,6 +18,11 @@ git clone https://github.com/jlaso/php7-strict-types-testing.git
 cd php7-strict-types-testing
 
 vagrant up
+```
+
+This is to create a link between our ssh keys into the vagrant machine:
+```
+ssh-add ~/.ssh/id_rsa
 ```
 
 once vagrant machine provisioned to enter into the machine:
@@ -30,6 +37,7 @@ first update the system and install needed packages:
 sudo apt-get update
 sudo apt-get install build-essential
 sudo apt-get install openssl libssl-dev openssl-blacklist openssl-blacklist-extra  bison autoconf automake libtool re2c flex 
+sudo apt-get install zlibc zlib1g zlib1g-dev libxml2-dev libssl-dev libbz2-dev libcurl3-dev libdb5.1-dev libjpeg-dev libpng-dev libXpm-dev libfreetype6-dev libt1-dev libgmp3-dev libc-client-dev libldap2-dev libmcrypt-dev libmhash-dev freetds-dev libz-dev libmysqlclient15-dev ncurses-dev libpcre3-dev unixODBC-dev libsqlite-dev libaspell-dev libreadline6-dev librecode-dev libsnmp-dev libtidy-dev libxslt-dev libt1-dev
 ```
 
 in order to install php from sources you need to clone the repo (be patient):
