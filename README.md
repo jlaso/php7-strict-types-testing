@@ -30,6 +30,7 @@ first update the system and install needed packages:
 sudo apt-get update
 sudo apt-get install build-essential
 sudo apt-get install openssl libssl-dev openssl-blacklist openssl-blacklist-extra  bison autoconf automake libtool re2c flex 
+sudo apt-get install libxml2-dev libssl-dev libbz2-dev libcurl3-dev libdb5.1-dev libjpeg-dev libpng-dev libXpm-dev libfreetype6-dev libt1-dev libgmp3-dev libc-client-dev libldap2-dev libmcrypt-dev libmhash-dev freetds-dev libz-dev libmysqlclient15-dev ncurses-dev libpcre3-dev unixODBC-dev libsqlite-dev libaspell-dev libreadline6-dev librecode-dev libsnmp-dev libtidy-dev libxslt-dev libt1-dev
 ```
 
 in order to install php from sources you need to clone the repo (be patient):
