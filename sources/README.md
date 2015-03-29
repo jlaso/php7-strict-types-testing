@@ -6,7 +6,7 @@ You can see the code [here](https://github.com/jlaso/php7-strict-types-testing/b
 
 And the result of its execution is:
 
-![result of spaceship operator demo](https://github.com/jlaso/php7-strict-types-testing/blob/master/sources/result-spaceship.jpg)
+![result of spaceship operator demo](https://github.com/jlaso/php7-strict-types-testing/blob/master/sources/result-spaceship.png)
 
 ### Speed improvement, PHP Next-Gen
 
