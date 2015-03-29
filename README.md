@@ -71,7 +71,7 @@ sudo mv phpunit.phar /usr/local/bin/phpunit
 ```
 
 
-See the rest of the samples to check how to use the new strict types checking.
+See the rest of the [samples](https://github.com/jlaso/php7-strict-types-testing/blob/master/sources/README.md) to check how to use the new strict types checking.
 
 Inside the machine, sample code is located at /var/www/source.
 
